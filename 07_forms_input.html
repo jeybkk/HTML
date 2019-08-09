@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p><h1>Forms & Inputs</h1></p>
+    <form action="process.php">
+        <!-- Text -->
+        <div>
+            <label for="name">Your Name (20 characters maximum</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <br>
+        <!-- Email -->
+        <div>
+            <label for="email">Password</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Password">
+        </div>
+        <br>
+        <!-- Text area -->
+        <div>
+            <label for="message">What do you think about Web 1 course ?</label>
+            <br>
+            <textarea name="messaage" id="message" placeholder="Enter your message" cols="50" rows="5" ></textarea> </div>
+            <br>
+        <!-- Select -->
+        <div>
+            <label for="sex">Sex<Sex/label>
+            <select name="sex" id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="ladyboy" selected>Ladyboy</option>
+        </select>
+        </div>
+        <br>
+        <!-- Number -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <br>
+        <!-- Date -->
+        <div>
+            <label for="birthdate">Birthdate</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <br>
+        <br>
+        <!-- Radio -->
+        <div>
+            <label for="choice">What animal do you like?</label>
+            <br>
+            <br>
+            <input type="radio" name="choice" checked id="dog">Dog
+            <br>
+            <input type="radio" name="choice" id="dog">Cat
+            <br>
+            <input type="radio" name="choice" id="ferret">Ferret
+
+        </div>
+        <!-- Checkbox -->
+        <div>
+        <br>
+            <label for="countries">Where did you go?</label>
+            <br>
+            <br>
+            <input type="checkbox" name="countries" checked id="japan">Japan
+            <br>
+            <input type="checkbox" name="countries" id="hong kong">Hong Kong
+            <br>
+            <input type="checkbox" name="countries" id="thailand">Thailand
+
+        </div>
+        <br>
+        <!-- Input submit -->
+        <input type="submit" value="submit">
+        <!-- Button submit -->
+        <!-- <button type="submit">Submit</button> -->
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
